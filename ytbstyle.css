@@ -5,14 +5,10 @@ p{
 body{
     font-family:Roboto,Arial;
     margin:0;
-    padding-top:80px;
-    padding-left:96px;
-    margin-bottom:300px;
-    padding-right:24px;
     background-color: rgb(248, 248, 248);
 }
 .header{
-    height:55px;
+    height:30px;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -32,8 +28,6 @@ body{
 }
 .hamburger-menu{
     height:24px;
-    margin-left: 24px;
-    margin-right: 24px;
     cursor:pointer;
 }
 .youtube-logo{
@@ -43,17 +37,11 @@ body{
 
 .middle-section{
     flex:1;
-    margin-left:70px;
-    margin-right:35px;
-    max-width: 500px;
     display:flex;
     align-items:center;
 }
 .search-bar{
     flex:1;
-    height:36px;
-    padding-left:10px;
-    font-size:16px;
     border:1px solid rgb(192, 192, 192);
     border-radius:2px;
     box-shadow: inset 1px 2px 5px rgba(0,0, 0, 0.05);
@@ -63,8 +51,6 @@ body{
     font-size:16px;
 }
 .search-button{
-    height:39px;
-    width:65px;
     background-color: rgb(240, 240, 240);
     border:1px solid rgb(192, 192, 192);
     margin-left:-1px;
@@ -115,8 +101,6 @@ body{
     height:25px;
 }
 .voice-search-button{
-     height:40px;
-     width:40px;
      border-radius:20px;
      border:none;
      background-color: rgb(243, 243, 243) ;
@@ -126,7 +110,6 @@ body{
     height:24px;
 }
 .right-section{
-   width:180px;
    margin-right:20px;
    display:flex;
    align-items:center;
@@ -228,12 +211,8 @@ body{
     margin-bottom:4px;
     margin-top:6px;
 }
-.channel-pic{
-    width:50px;
-}
 
-.profilepic{
-width:36px;  
+.profilepic{ 
 border-radius:50px;
 }
 
@@ -249,7 +228,7 @@ column-gap:16px;
 row-gap:40px;
 }
 /* Mobile Styles */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
       padding-left: 16px;
       padding-right: 16px;
