@@ -248,21 +248,55 @@ grid-template-columns:1fr 1fr 1fr;
 column-gap:16px;
 row-gap:40px;
 }
-
-@media(max-width:750px) {
-    .grid{
-        grid-template-columns:1fr 1fr;
-    }    
-}
-
-@media(min-width:751px) and (max-width:999px) {
-    .grid{
-        grid-template-columns:1fr 1fr 1fr;
-    }    
-}
-
-@media(min-width:1000px) {
-    .grid{
-        grid-template-columns:1fr 1fr 1fr 1fr;
-    }    
-}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    body {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .header {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .middle-section {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .search-bar {
+      width: calc(100% - 80px); /* Adjust as needed */
+    }
+  
+    .right-section {
+      width: auto;
+      margin-right: 16px;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .video-preview {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  
+    .video-info-grid {
+      grid-template-columns: auto 1fr;
+    }
+  
+    .thumbnail-row {
+      margin-bottom: 8px;
+    }
+  
+    .channel-pic {
+      width: 40px;
+    }
+  
+    .profilepic {
+      width: 24px;
+    }
+  }
+  
